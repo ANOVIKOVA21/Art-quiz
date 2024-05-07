@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Art Quiz</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <img src="assets/logo.webp" alt="logo">
+    </div>
+  </header>
+  <main>
+    <section class="home-page">
+      <div class="home-page__choice">
+        <div class="home-page__game-type painter">
+          <img src="assets/main-images/daVinсi.jpg" alt="Leonardo da Vinci picture">
+          <h3 class="home-page__game-type-text">ARTISTS QUIZ</h3>
+        </div>
+        <div class="home-page__game-type picture">
+          <img src="assets/main-images/picture.jpg" alt="ocean picture">
+          <h3 class="home-page__game-type-text">PICTURES QUIZ</h3>
+        </div>
+      </div>
+      <div class="settings"></div>
+    </section>
+    <section class="settings-page hide">
+      <div class="container">
+        <span class="back">Back</span>
+        <h2 class="title">Settings</h2>
+        <p>Volume</p>
+        <input type="range" value="40" min="0" max="100" class="settings-page__volume" id="volume">
+        <p>Time game</p>
+        <div class="settings-page__switcher">
+          <span class="settings-page__switcher-text">Off</span>
+          <label class="settings-page__switcher-container">
+            <input type="checkbox">
+            <span class="settings-page__switcher-slider"></span>
+          </label>
+        </div>
+        <p>Time to answer</p>
+        <div class="settings-page__time-buttons">
+          <button type="button" class="settings-page__btn less-btn">–</button>
+          <input type="number" min="5" max="30" value="20" step="5" class="settings-page__time" readonly>
+          <button type="button" class="settings-page__btn more-btn">+</button>
+        </div>
+      </div>
+    </section>
+    <section class="categories-page hide">
+      <div class="container">
+        <header class="categories-page__header">
+          <div class="categories-page__logo">
+            <img src="assets/svg/logo.webp" alt="logo">
+          </div>
+          <p>Home</p>
+          <div class="settings"></div>
+        </header>
+        <h2 class="title">Categories</h2>
+        <div class="categories-page__categories">
+          <div class="categories-page__category" data-category-num="1">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">1</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="2">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">2</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="3">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">3</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="4">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">4</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="5">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">5</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="6">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">6</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="7">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">7</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="8">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">8</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="9">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">9</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="10">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">10</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="11">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">11</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+          <div class="categories-page__category" data-category-num="12">
+            <div class="categories-page__category-title">
+              <h3 class="categories-page__category-num">12</h3>
+              <p class="categories-page__category-result"><span class="true-answers">0</span>/10</p>
+            </div>
+            <div class="categories-page__category-img">
+              <div class="categories-page__category-score">Score</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="game-page hide">
+      <header class="game-page__header">
+        <p class="game-page__question"></p>
+        <span class="game-page__timer">0:20</span>
+      </header>
+      <div class="game-page__content">
+        <div class="quiz-author hide">
+          <div class="quiz-author__img">
+            <ul class="quiz-author__question-slider">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="quiz-author__options">
+            <button type="button" class="quiz-author__answer-button"></button>
+            <button type="button" class="quiz-author__answer-button"></button>
+            <button type="button" class="quiz-author__answer-button"></button>
+            <button type="button" class="quiz-author__answer-button"></button>
+          </div>
+        </div>
+        <div class="quiz-picture hide">
+          <div class="quiz-picture__option-picture"></div>
+          <div class="quiz-picture__option-picture"></div>
+          <div class="quiz-picture__option-picture"></div>
+          <div class="quiz-picture__option-picture"></div>
+        </div>
+      </div>
+    </section>
+    <section class="response-page hide">
+      <div class="response-page__result">
+        <div class="response-page__result-picture">
+          <div class="response-page__result-mark"></div>
+        </div>
+        <h4 class="response-page__picture-name"></h4>
+        <p class="response-page__info-picture"></p>
+        <button type="button" class="response-page__button-next">Next</button>
+      </div>
+    </section>
+    <section class="result-page hide">
+      <div class="result-page__window">
+        <div class="result-page__img"></div>
+        <p>Congratulations!</p>
+        <p class="result-page__category-result"><span class="result-page__true-answers">0</span>/10</p>
+        <div class="result-page__buttons">
+          <button type="button" class="result-page__home-next">Home</button>
+          <button type="button" class="result-page__quiz-next">Next Quiz</button>
+        </div>
+      </div>
+    </section>
+    <section class="score-page hide"></section>
+  </main>
+  <footer>
+    <ul class="footer__info">
+      <li><a href="https://github.com/ANOVIKOVA21">ANNA NOVIKOVA</a></li>
+      <li>2024</li>
+    </ul>
+  </footer>
+  <script type="module" src="scripts/main.js"></script>
+</body>
+
+</html>
