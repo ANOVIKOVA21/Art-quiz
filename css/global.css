@@ -9,6 +9,8 @@
   --background: linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%), linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);
   --main-font-family: 'Dongle', 'Arial', sans-serif;
   --big-font-size: 52px;
+  --settings-input-primary-color: #FFBCA2;
+  --settings-input-secondary-color: #ccc;
 }
 
 body {
@@ -17,6 +19,7 @@ body {
   font-size: var(--big-font-size);
   line-height: var(--big-font-size);
   background: var(--background);
+
 }
 
 .hidden {
@@ -31,6 +34,14 @@ section {
 
 .retracted {
   transform: translate(-100vw);
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 45px;
 }
 
 .title {
@@ -56,4 +67,9 @@ a {
 
 ul {
   list-style: none;
+}
+
+button {
+  transition: 0.5s;
+  cursor: pointer;
 }
