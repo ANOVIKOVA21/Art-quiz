@@ -1,0 +1,52 @@
+.home-page__header {
+  padding: 10px;
+}
+
+.home-page__header-logo {
+  width: 320px;
+  margin: 10px auto;
+}
+
+.home-page__choice,
+.footer__info {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-content: space-between;
+  margin: 0 auto 30px;
+}
+
+.home-page__game-type {
+  min-height: 415px;
+  max-width: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.home-page__game-type:hover {
+  box-shadow: rgba(245, 241, 241, 0.8) 0 0 20px 20px;
+}
+
+.painter {
+  background-image: url(../assets/main-images/daVinсi.jpg);
+}
+
+.picture {
+  background-image: url(../assets/main-images/picture.jpg);
+}
+
+.home-page__game-type-text {
+  position: relative;
+  top: 100%;
+  width: 100%;
+  line-height: 55px;
+  font-weight: 700;
+  padding: 0 10px;
+  border-radius: 30px 0;
+  background: linear-gradient(90deg, rgba(238, 220, 220, 0.9) 55%, rgba(32, 32, 32, 0.6));
+}
