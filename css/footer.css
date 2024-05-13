@@ -1,0 +1,17 @@
+footer {
+  padding: 10px;
+}
+
+.footer__info {
+  margin: 20px auto;
+  color: var(--footer-text-color);
+  font-size: var(--footer-font-size);
+}
+
+.footer__info a {
+  color: var(--footer-text-color);
+}
+
+.footer__info a:hover {
+  opacity: 0.5;
+}

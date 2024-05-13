@@ -11,6 +11,8 @@
   --big-font-size: 52px;
   --settings-input-primary-color: #FFBCA2;
   --settings-input-secondary-color: #ccc;
+  --footer-text-color: #68625f;
+  --footer-font-size: 30px;
 }
 
 body {
@@ -63,6 +65,7 @@ img {
 
 a {
   text-decoration: none;
+  transition: 0.5s;
 }
 
 ul {
