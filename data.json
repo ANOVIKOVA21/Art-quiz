@@ -1,0 +1,1758 @@
+[{
+        "author": "Pavel Fedotov",
+        "name": "Major's matchmaking",
+        "year": "1852",
+        "imageNum": "0",
+        "category": "realism"
+    },
+    {
+        "author": "Edgar Degas",
+        "name": "Blue dancers",
+        "year": "1897",
+        "imageNum": "1",
+        "category": "impressionism"
+    },
+    {
+        "author": "Veronese",
+        "name": "Feast in the house of Levi",
+        "year": "1563",
+        "imageNum": "2",
+        "category": "religion"
+    },
+    {
+        "author": "Joseph Vernet",
+        "name": "Waterfall in Tivoli",
+        "year": "1737",
+        "imageNum": "3",
+        "category": "landscape"
+    },
+    {
+        "author": "Konstantin Makovsky",
+        "name": "Portrait of Countess Sophia",
+        "year": "1890",
+        "imageNum": "4",
+        "category": "portrait"
+    },
+    {
+        "author": "Peter Paul Rubens",
+        "name": "Landscape with Rainbow",
+        "year": "1638",
+        "imageNum": "5",
+        "category": "landscape"
+    },
+    {
+        "author": "Michelangelo",
+        "name": "Creation of Adam",
+        "year": "1511",
+        "imageNum": "6",
+        "category": "renaissance"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Walk in the Bois de Boulogne",
+        "year": "1873",
+        "imageNum": "7",
+        "category": "impressionism"
+    },
+    {
+        "author": "Jan Vermeer",
+        "name": "Mistress and maid",
+        "year": "1667",
+        "imageNum": "8",
+        "category": "painting"
+    },
+    {
+        "author": "El Greco",
+        "name": "View of Toledo",
+        "year": "1599",
+        "imageNum": "9",
+        "category": "landscape"
+    },
+    {
+        "author": "Jean-Honoré Fragonard",
+        "name": "The Watering Place",
+        "year": "1763",
+        "imageNum": "10",
+        "category": "landscape"
+    },
+    {
+        "author": "Ilya Repin",
+        "name": "Seeing off the recruit",
+        "year": "1879",
+        "imageNum": "11",
+        "category": "painting"
+    },
+    {
+        "author": "Veronese",
+        "name": "Mars and Venus",
+        "year": "1560",
+        "imageNum": "12",
+        "category": "renaissance"
+    },
+    {
+        "author": "John Constable",
+        "name": "View of Salisbury Cathedral from the Bishop's Grounds",
+        "year": "1823",
+        "imageNum": "13",
+        "category": "landscape"
+    },
+    {
+        "author": "Claude Lorrain",
+        "name": "Saint Ursula Departure",
+        "year": "1614",
+        "imageNum": "14",
+        "category": "marine"
+    },
+    {
+        "author": "Ilya Repin",
+        "name": "Vespers",
+        "year": "1881",
+        "imageNum": "15",
+        "category": "painting"
+    },
+    {
+        "author": "Jean Fragonard",
+        "name": "Swing",
+        "year": "1767",
+        "imageNum": "16",
+        "category": "renaissance"
+    },
+    {
+        "author": "Arkhip Kuindzhi",
+        "name": "Birch grove",
+        "year": "1879",
+        "imageNum": "17",
+        "category": "landscape"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "Guernica",
+        "year": "1937",
+        "imageNum": "18",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Paul Gauguin",
+        "name": "Where did we come from? Who are we? Where are we going?",
+        "year": "1898",
+        "imageNum": "19",
+        "category": "painting"
+    },
+    {
+        "author": "Bartolomeo Murillo",
+        "name": "Madonna of the Rosary",
+        "year": "1655",
+        "imageNum": "20",
+        "category": "renaissance"
+    },
+    {
+        "author": "Pieter Bruegel",
+        "name": "Flemish proverbs",
+        "year": "1559",
+        "imageNum": "21",
+        "category": "renaissance"
+    },
+    {
+        "author": "Jan van Eyck",
+        "name": "Portrait of the Arnolfini couple",
+        "year": "1434",
+        "imageNum": "22",
+        "category": "renaissance"
+    },
+    {
+        "author": "Pieter Bruegel",
+        "name": "Beating up babies",
+        "year": "1567",
+        "imageNum": "23",
+        "category": "renaissance"
+    },
+    {
+        "author": "Peter Paul Rubens",
+        "name": "Landscape with the Ruins of Mount Palatine in Rome",
+        "year": "1608",
+        "imageNum": "24",
+        "category": "landscape"
+    },
+    {
+        "author": "Rembrandt",
+        "name": "Danae",
+        "year": "1647",
+        "imageNum": "25",
+        "category": "renaissance"
+    },
+    {
+        "author": "Raphael",
+        "name": "Madonna in the chair",
+        "year": "1514",
+        "imageNum": "26",
+        "category": "portrait"
+    },
+    {
+        "author": "Peter Paul Rubens",
+        "name": "Landscape with Psyche and Jupiter",
+        "year": "1610",
+        "imageNum": "27",
+        "category": "landscape"
+    },
+    {
+        "author": "Ivan Shishkin",
+        "name": "Stream in a birch forest",
+        "year": "1883",
+        "imageNum": "28",
+        "category": "landscape"
+    },
+    {
+        "author": "Adriaen van de Venne",
+        "name": "Summer",
+        "year": "1614",
+        "imageNum": "29",
+        "category": "landscape"
+    },
+    {
+        "author": "Vladimir Borovikovsky",
+        "name": "Portrait of Lopukhina",
+        "year": "1797",
+        "imageNum": "30",
+        "category": "portrait"
+    },
+    {
+        "author": "Rene Magritte",
+        "name": "Son of man",
+        "year": "1964",
+        "imageNum": "31",
+        "category": "surrealism"
+    },
+    {
+        "author": "Velasquez",
+        "name": "Venus with a mirror",
+        "year": "1651",
+        "imageNum": "32",
+        "category": "painting"
+    },
+    {
+        "author": "Hendrick Avercamp",
+        "name": "Winter Scene on a Canal",
+        "year": "1615",
+        "imageNum": "33",
+        "category": "landscape"
+    },
+    {
+        "author": "Rembrandt",
+        "name": "Christ and the sinner",
+        "year": "1644",
+        "imageNum": "34",
+        "category": "renaissance"
+    },
+    {
+        "author": "John William Waterhouse",
+        "name": "Sorceress Shallot",
+        "year": "1888",
+        "imageNum": "35",
+        "category": "portrait"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Big bathers",
+        "year": "1887",
+        "imageNum": "36",
+        "category": "painting"
+    },
+    {
+        "author": "Bartolomeo Murillo",
+        "name": "Boy with a dog",
+        "year": "1650",
+        "imageNum": "37",
+        "category": "portrait"
+    },
+    {
+        "author": "Pieter Bruegel the Elder",
+        "name": "Winter Landscape with Skaters and a Bird Trap",
+        "year": "1565",
+        "imageNum": "38",
+        "category": "landscape"
+    },
+    {
+        "author": "Frederic Bazille",
+        "name": "The Pink Dress",
+        "year": "1864",
+        "imageNum": "39",
+        "category": "impressionism"
+    },
+    {
+        "author": "John Singer Sargent",
+        "name": "Simplon Pass. Reading",
+        "year": "1911",
+        "imageNum": "40",
+        "category": "impressionism"
+    },
+    {
+        "author": "Henri Matisse",
+        "name": "Dance",
+        "year": "1910",
+        "imageNum": "41",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Edvard Munch",
+        "name": "Madonna",
+        "year": "1894",
+        "imageNum": "42",
+        "category": "expressionism"
+    },
+    {
+        "author": "Marc Chagall",
+        "name": "Walk",
+        "year": "1918",
+        "imageNum": "43",
+        "category": "expressionism"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Dance at Bougival",
+        "year": "1883",
+        "imageNum": "44",
+        "category": "impressionism"
+    },
+    {
+        "author": "Hieronymus Bosch",
+        "name": "Last Judgment",
+        "year": "1504",
+        "imageNum": "45",
+        "category": "renaissance"
+    },
+    {
+        "author": "Karl Lemokh",
+        "name": "Varka",
+        "year": "1893",
+        "imageNum": "46",
+        "category": "portrait"
+    },
+    {
+        "author": "Jean Fragonard",
+        "name": "Secret kiss",
+        "year": "1788",
+        "imageNum": "47",
+        "category": "romanticism"
+    },
+    {
+        "author": "Francois Boucher",
+        "name": "Venus comforting Cupid",
+        "year": "1751",
+        "imageNum": "48",
+        "category": "renaissance"
+    },
+    {
+        "author": "Ivan Shishkin",
+        "name": "Ship Grove",
+        "year": "1898",
+        "imageNum": "49",
+        "category": "landscape"
+    },
+    {
+        "author": "Gustav Klimt",
+        "name": "Golden Adele",
+        "year": "1907",
+        "imageNum": "50",
+        "category": "portrait"
+    },
+    {
+        "author": "Edgar Degas",
+        "name": "Dance Class at the Opera, rue Le Peletier",
+        "year": "1872",
+        "imageNum": "51",
+        "category": "impressionism"
+    },
+    {
+        "author": "Wilhelm von Kaulbach",
+        "name": "Destruction of Jerusalem",
+        "year": "1846",
+        "imageNum": "52",
+        "category": "renaissance"
+    },
+    {
+        "author": "Veronese",
+        "name": "Marriage at Cana of Galilee",
+        "year": "1562",
+        "imageNum": "53",
+        "category": "renaissance"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "The Old Blind Guitarist",
+        "year": "1903",
+        "imageNum": "54",
+        "category": "expressionism"
+    },
+    {
+        "author": "Joseph Mallord William Turner",
+        "name": "The Last Voyage of the Frigate Brave",
+        "year": "1839",
+        "imageNum": "55",
+        "category": "marine"
+    },
+    {
+        "author": "Titian",
+        "name": "Bacchanalia",
+        "year": "1526",
+        "imageNum": "56",
+        "category": "renaissance"
+    },
+    {
+        "author": "Velasquez",
+        "name": "Villa Medici in Rome. Noon",
+        "year": "1630",
+        "imageNum": "57",
+        "category": "painting"
+    },
+    {
+        "author": "Edouard Manet",
+        "name": "Rue Mosnier decorated with Flags",
+        "year": "1878",
+        "imageNum": "58",
+        "category": "impressionism"
+    },
+    {
+        "author": "Salvador Dali",
+        "name": "Memory persistence",
+        "year": "1931",
+        "imageNum": "59",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Two girls",
+        "year": "1892",
+        "imageNum": "60",
+        "category": "romanticism"
+    },
+    {
+        "author": "Rembrandt",
+        "name": "The Storm on the Sea of Galilee",
+        "year": "1633",
+        "imageNum": "61",
+        "category": "marine"
+    },
+    {
+        "author": "Velasquez",
+        "name": "Meninas",
+        "year": "1656",
+        "imageNum": "62",
+        "category": "renaissance"
+    },
+    {
+        "author": "Anthony van Dyck",
+        "name": "Samson and Delilah",
+        "year": "1628",
+        "imageNum": "63",
+        "category": "renaissance"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "Girl on the ball",
+        "year": "1905",
+        "imageNum": "64",
+        "category": "expressionism"
+    },
+    {
+        "author": "Giovanni Bellini",
+        "name": "Feast of the Gods",
+        "year": "1514",
+        "imageNum": "65",
+        "category": "renaissance"
+    },
+    {
+        "author": "Leonardo da Vinci",
+        "name": "Lady with an Ermine",
+        "year": "1490",
+        "imageNum": "66",
+        "category": "portrait"
+    },
+    {
+        "author": "Velasquez",
+        "name": "Bacchus",
+        "year": "1628",
+        "imageNum": "67",
+        "category": "renaissance"
+    },
+    {
+        "author": "Bartolomeo Murillo",
+        "name": "Immaculate Conception",
+        "year": "1678",
+        "imageNum": "68",
+        "category": "religion"
+    },
+    {
+        "author": "Theodore Gericault",
+        "name": "Raft \"Medusa\"",
+        "year": "1819",
+        "imageNum": "69",
+        "category": "romanticism"
+    },
+    {
+        "author": "Claude Joseph Vernet",
+        "name": "The Shipwreck During a Storm",
+        "year": "1772",
+        "imageNum": "70",
+        "category": "marine"
+    },
+    {
+        "author": "Jean Etienne Lyotard",
+        "name": "Chocolate girl",
+        "year": "1745",
+        "imageNum": "71",
+        "category": "romanticism"
+    },
+    {
+        "author": "Rembrandt",
+        "name": "Self-portrait with Saskia",
+        "year": "1635",
+        "imageNum": "72",
+        "category": "portrait"
+    },
+    {
+        "author": "Ilya Repin",
+        "name": "Religious procession",
+        "year": "1883",
+        "imageNum": "73",
+        "category": "realism"
+    },
+    {
+        "author": "Claude Joseph Vernet",
+        "name": "View of a port in the morning",
+        "year": "1774",
+        "imageNum": "74",
+        "category": "marine"
+    },
+    {
+        "author": "Vincent van Gogh",
+        "name": "Seascape at Saintes-Maries",
+        "year": "1888",
+        "imageNum": "75",
+        "category": "marine"
+    },
+    {
+        "author": "Henri de Toulouse-Lautrec",
+        "name": "Corner of the Moulin de la Galette",
+        "year": "1892",
+        "imageNum": "76",
+        "category": "impressionism"
+    },
+    {
+        "author": "Titian",
+        "name": "Penitent Marina Magdalene",
+        "year": "1565",
+        "imageNum": "77",
+        "category": "religion"
+    },
+    {
+        "author": "Velasquez",
+        "name": "Infanta Margarita",
+        "year": "1654",
+        "imageNum": "78",
+        "category": "portrait"
+    },
+    {
+        "author": "Titian",
+        "name": "Denarius Caesar",
+        "year": "1516",
+        "imageNum": "79",
+        "category": "religion"
+    },
+    {
+        "author": "Mykhailo Alisov",
+        "name": "Seascape",
+        "year": "1896",
+        "imageNum": "80",
+        "category": "marine"
+    },
+    {
+        "author": "Mykhailo Alisov",
+        "name": "Crimea. Seascape",
+        "year": "1910",
+        "imageNum": "81",
+        "category": "marine"
+    },
+     {
+        "author": "Leonardo da Vinci",
+        "name": "Annunciation",
+        "year": "1475",
+        "imageNum": "82",
+        "category": "renaissance"
+    },
+    {
+        "author": "Mykhailo Alisov",
+        "name": "Crimean landscape",
+        "year": "1900",
+        "imageNum": "83",
+        "category": "marine"
+    },
+    {
+        "author": "Titian",
+        "name": "Earthly Love and Heavenly Love",
+        "year": "1516",
+        "imageNum": "84",
+        "category": "renaissance"
+    },
+    {
+        "author": "Jean Baptiste Greuze",
+        "name": "Village Engagement",
+        "year": "1761",
+        "imageNum": "85",
+        "category": "romanticism"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "The girls of Avignon",
+        "year": "1907",
+        "imageNum": "86",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Jean-Francois Millet",
+        "name": "The Gleaners",
+        "year": "1857",
+        "imageNum": "87",
+        "category": "realism"
+    },
+    {
+        "author": "Jean-Francois Millet",
+        "name": "The Angelus",
+        "year": "1859",
+        "imageNum": "88",
+        "category": "realism"
+    },
+    {
+        "author": "Raphael",
+        "name": "Belvedere Madonna",
+        "year": "1506",
+        "imageNum": "89",
+        "category": "renaissance"
+    },
+    {
+        "author": "Gustave Courbet",
+        "name": "The Wave",
+        "year": "1870",
+        "imageNum": "90",
+        "category": "realism"
+    },
+    {
+        "author": "Caravaggio",
+        "name": "Lute player",
+        "year": "1596",
+        "imageNum": "91",
+        "category": "portrait"
+    },
+    {
+        "author": "Edward Hopper",
+        "name": "New York Movie",
+        "year": "1939",
+        "imageNum": "92",
+        "category": "realism"
+    },
+    {
+        "author": "Leonardo da Vinci",
+        "name": "The Last Supper",
+        "year": "1498",
+        "imageNum": "93",
+        "category": "religion"
+    },
+    {
+        "author": "Jean Baptiste Greuze",
+        "name": "Spoiled child",
+        "year": "1765",
+        "imageNum": "94",
+        "category": "painting"
+    },
+    {
+        "author": "Adolphe William Bouguereau",
+        "name": "Wave",
+        "year": "1896",
+        "imageNum": "95",
+        "category": "marine"
+    },
+    {
+        "author": "Winslow Homer",
+        "name": "Canoe in the Rapids",
+        "year": "1897",
+        "imageNum": "96",
+        "category": "realism"
+    },
+    {
+        "author": "Gustav Klimt",
+        "name": "Kiss",
+        "year": "1908",
+        "imageNum": "97",
+        "category": "expressionism"
+    },
+    {
+        "author": "Winslow Homer",
+        "name": "Snap the Whip",
+        "year": "1872",
+        "imageNum": "98",
+        "category": "realism"
+    },
+    {
+        "author": "Jean-Leon Gerome",
+        "name": "Gladiator Fight",
+        "year": "1872",
+        "imageNum": "99",
+        "category": "painting"
+    },
+    {
+        "author": "Edouard Manet",
+        "name": "The Luncheon on the Grass",
+        "year": "1862",
+        "imageNum": "100",
+        "category": "realism"
+    },
+    {
+        "author": "Isaac Levitan",
+        "name": "Over eternal rest",
+        "year": "1894",
+        "imageNum": "101",
+        "category": "landscape"
+    },
+    {
+        "author": "Gainsborough",
+        "name": "Lady in blue",
+        "year": "1780",
+        "imageNum": "102",
+        "category": "portrait"
+    },
+    {
+        "author": "Thomas Eakins",
+        "name": "The Dancing Lesson",
+        "year": "1878",
+        "imageNum": "103",
+        "category": "realism"
+    },
+    {
+        "author": "Titian",
+        "name": "Salome",
+        "year": "1515",
+        "imageNum": "104",
+        "category": "religion"
+    },
+    {
+        "author": "Thomas Eakins",
+        "name": "Painting Cowboys in the Bad Lands",
+        "year": "1888",
+        "imageNum": "105",
+        "category": "realism"
+    },
+    {
+        "author": "Gustave Courbet",
+        "name": "A Young Woman Reading",
+        "year": "1868",
+        "imageNum": "106",
+        "category": "realism"
+    },
+    {
+        "author": "Louis Lagrenet",
+        "name": "Mars and Venus",
+        "year": "1770",
+        "imageNum": "107",
+        "category": "renaissance"
+    },
+    {
+        "author": "Salvador Dali",
+        "name": "A dream caused by the flight of a bee around a pomegranate, one second before awakening",
+        "year": "1944",
+        "imageNum": "108",
+        "category": "surrealism"
+    },
+    {
+        "author": "Jan Vermeer",
+        "name": "Girl with a pearl earring",
+        "year": "1665",
+        "imageNum": "109",
+        "category": "portrait"
+    },
+    {
+        "author": "Henri Rousseau",
+        "name": "Sleeping gypsy",
+        "year": "1897",
+        "imageNum": "110",
+        "category": "surrealism"
+    },
+    {
+        "author": "Winslow Homer",
+        "name": "Gloucester Harbor",
+        "year": "1873",
+        "imageNum": "111",
+        "category": "realism"
+    },
+    {
+        "author": "Edvard Munch",
+        "name": "Shout",
+        "year": "1893",
+        "imageNum": "112",
+        "category": "expressionism"
+    },
+    {
+        "author": "Théodore Géricault",
+        "name": "The Raft of the Medusa",
+        "year": "1818",
+        "imageNum": "113",
+        "category": "realism"
+    },
+    {
+        "author": "Ilya Repin",
+        "name": "Summer landscape",
+        "year": "1879",
+        "imageNum": "114",
+        "category": "impressionism"
+    },
+    {
+        "author": "Jan Vermeer",
+        "name": "Thrush",
+        "year": "1660",
+        "imageNum": "115",
+        "category": "impressionism"
+    },
+    {
+        "author": "Ivan Aivazovsky",
+        "name": "Ninth wave",
+        "year": "1850",
+        "imageNum": "116",
+        "category": "marine"
+    },
+    {
+        "author": "Vincent van Gogh",
+        "name": "Sunflowers",
+        "year": "1888",
+        "imageNum": "117",
+        "category": "expressionism"
+    },
+    {
+        "author": "Camille Corot",
+        "name": "Venice - View of Campo della Carita looking towards the Dome of the Salute",
+        "year": "1818",
+        "imageNum": "118",
+        "category": "realism"
+    },
+    {
+        "author": "Caravaggio",
+        "name": "Saul's conversion",
+        "year": "1601",
+        "imageNum": "119",
+        "category": "painting"
+    },
+    {
+        "author": "Albrecht Durer",
+        "name": "Rose Wreath Festival",
+        "year": "1506",
+        "imageNum": "120",
+        "category": "religion"
+    },
+    {
+        "author": "El Greco",
+        "name": "Expulsion of the merchants from the temple",
+        "year": "1600",
+        "imageNum": "121",
+        "category": "religion"
+    },
+    {
+        "author": "David Burliuk",
+        "name": "Futuristic Woman",
+        "year": "1911",
+        "imageNum": "122",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Isaac Levitan",
+        "name": "March",
+        "year": "1895",
+        "imageNum": "123",
+        "category": "landscape"
+    },
+    {
+        "author": "Adolphe William Bouguereau",
+        "name": "Girl and Cupid",
+        "year": "1880",
+        "imageNum": "124",
+        "category": "renaissance"
+    },
+    {
+        "author": "Leonardo da Vinci",
+        "name": "Madonna Litta",
+        "year": "1491",
+        "imageNum": "125",
+        "category": "renaissance"
+    },
+    {
+        "author": "Kazimir Malevich",
+        "name": "Black square",
+        "year": "1915",
+        "imageNum": "126",
+        "category": "avant-garde"
+    },
+    {
+        "author": "El Greco",
+        "name": "Apostles Peter and Paul",
+        "year": "1592",
+        "imageNum": "127",
+        "category": "renaissance"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "Girl with mandolin (Fanny Tellier)",
+        "year": "1910",
+        "imageNum": "128",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Canaletto",
+        "name": "Piazzetta and the Doge's Palace from the Bacino di San Marco",
+        "year": "1737",
+        "imageNum": "129",
+        "category": "painting"
+    },
+    {
+        "author": "Eugene Delacroix",
+        "name": "Freedom leading the people",
+        "year": "1830",
+        "imageNum": "130",
+        "category": "romanticism"
+    },
+    {
+        "author": "Edvard Munch",
+        "name": "The Sun",
+        "year": "1911",
+        "imageNum": "131",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Georges Braque",
+        "name": "Houses at Estaque",
+        "year": "1908",
+        "imageNum": "132",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Georges Braque",
+        "name": "Fruit Dish",
+        "year": "1908",
+        "imageNum": "133",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Bridge to Shatu",
+        "year": "1875",
+        "imageNum": "134",
+        "category": "marine"
+    },
+    {
+        "author": "Sandro Botticelli",
+        "name": "Spring",
+        "year": "1482",
+        "imageNum": "135",
+        "category": "renaissance"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Umbrellas",
+        "year": "1886",
+        "imageNum": "136",
+        "category": "impressionism"
+    },
+    {
+        "author": "Gustave Courbet",
+        "name": "Artist's Workshop",
+        "year": "1855",
+        "imageNum": "137",
+        "category": "renaissance"
+    },
+    {
+        "author": "Gerhard Richter",
+        "name": "Mediation",
+        "year": "1986",
+        "imageNum": "138",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Salvador Dali",
+        "name": "Harlequin",
+        "year": "1927",
+        "imageNum": "139",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Ball at the Moulin de la Galette",
+        "year": "1876",
+        "imageNum": "140",
+        "category": "impressionism"
+    },
+    {
+        "author": "Eugene Delacroix",
+        "name": "The Barque of Dante (Dante and Virgil in the Underworld)",
+        "year": "1822",
+        "imageNum": "141",
+        "category": "romanticism"
+    },
+    {
+        "author": "Velasquez",
+        "name": "Forge of the volcano",
+        "year": "1630",
+        "imageNum": "142",
+        "category": "renaissance"
+    },
+    {
+        "author": "Ilya Repin",
+        "name": "Cossacks",
+        "year": "1891",
+        "imageNum": "143",
+        "category": "realism"
+    },
+    {
+        "author": "Raphael",
+        "name": "Lady with a unicorn",
+        "year": "1506",
+        "imageNum": "144",
+        "category": "portrait"
+    },
+    {
+        "author": "Alexander Ivanov",
+        "name": "Appearance of Christ to the people",
+        "year": "1857",
+        "imageNum": "145",
+        "category": "renaissance"
+    },
+    {
+        "author": "Edouard Manet",
+        "name": "Woman with a jug",
+        "year": "1858",
+        "imageNum": "146",
+        "category": "portrait"
+    },
+    {
+        "author": "Titian",
+        "name": "Equestrian portrait of Charles V",
+        "year": "1548",
+        "imageNum": "147",
+        "category": "portrait"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Rowers' Breakfast",
+        "year": "1881",
+        "imageNum": "148",
+        "category": "expressionism"
+    },
+    {
+        "author": "Eugene Delacroix",
+        "name": "Bouquet of Flowers",
+        "year": "1849",
+        "imageNum": "149",
+        "category": "romanticism"
+    },
+    {
+        "author": "George Stubbs",
+        "name": "Mares and Foals under an Oak Tree",
+        "year": "1775",
+        "imageNum": "150",
+        "category": "romanticism"
+    },
+    {
+        "author": "Pieter Bruegel",
+        "name": "Hunters in the Snow",
+        "year": "1565",
+        "imageNum": "151",
+        "category": "painting"
+    },
+    {
+        "author": "Francisco Goya",
+        "name": "Dance of the Majos at the Banks of Manzanares",
+        "year": "1777",
+        "imageNum": "152",
+        "category": "romanticism"
+    },
+    {
+        "author": "Marc Chagall",
+        "name": "Me and the village",
+        "year": "1911",
+        "imageNum": "153",
+        "category": "surrealism"
+    },
+    {
+        "author": "Leonardo da Vinci",
+        "name": "Mona Lisa",
+        "year": "1505",
+        "imageNum": "154",
+        "category": "portrait"
+    },
+    {
+        "author": "Francesco Bacchiacca",
+        "name": "Madonna and Child",
+        "year": "1520",
+        "imageNum": "155",
+        "category": "renaissance"
+    },
+    {
+        "author": "Jacques-Louis David",
+        "name": "Oath of the Horace",
+        "year": "1784",
+        "imageNum": "156",
+        "category": "renaissance"
+    },
+    {
+        "author": "Albrecht Durer",
+        "name": "Adam and Eve",
+        "year": "1507",
+        "imageNum": "157",
+        "category": "religion"
+    },
+    {
+        "author": "Bartolomeo Murillo",
+        "name": "Appearance and gift of the Mother of God",
+        "year": "1655",
+        "imageNum": "158",
+        "category": "religion"
+    },
+    {
+        "author": "Joseph Wright",
+        "name": "Matlock Tor by Daylight",
+        "year": "1780",
+        "imageNum": "159",
+        "category": "romanticism"
+    },
+    {
+        "author": "Caravaggio",
+        "name": "Rest on the Flight to Egypt",
+        "year": "1596",
+        "imageNum": "160",
+        "category": "renaissance"
+    },
+    {
+        "author": "Francisco Goya",
+        "name": "Shooting of the rebels",
+        "year": "1808",
+        "imageNum": "161",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Raphael",
+        "name": "Triumph of Galatea",
+        "year": "1512",
+        "imageNum": "162",
+        "category": "renaissance"
+    },
+    {
+        "author": "David Allan",
+        "name": "Sir John Halkett of Pitfirrane, 4th Baronet, Mary Hamilton, Lady Halkett and their Family",
+        "year": "1781",
+        "imageNum": "163",
+        "category": "romanticism"
+    },
+    {
+        "author": "Vincent van Gogh",
+        "name": "Irises",
+        "year": "1889",
+        "imageNum": "164",
+        "category": "expressionism"
+    },
+    {
+        "author": "Paul Delaroche",
+        "name": "Execution of Jane Gray",
+        "year": "1833",
+        "imageNum": "165",
+        "category": "romanticism"
+    },
+    {
+        "author": "John Constable",
+        "name": "View of Salisbury Cathedral from the Bishop's Garden",
+        "year": "1823",
+        "imageNum": "166",
+        "category": "impressionism"
+    },
+    {
+        "author": "Vincent van Gogh",
+        "name": "Starry Night",
+        "year": "1889",
+        "imageNum": "167",
+        "category": "expressionism"
+    },
+    {
+        "author": "Francois Boucher",
+        "name": "Four seasons - Spring",
+        "year": "1755",
+        "imageNum": "168",
+        "category": "romanticism"
+    },
+    {
+        "author": "Raphael",
+        "name": "Madonna of the Rose",
+        "year": "1518",
+        "imageNum": "169",
+        "category": "religion"
+    },
+    {
+        "author": "Vasily Tropinin",
+        "name": "Lacemaker",
+        "year": "1823",
+        "imageNum": "170",
+        "category": "portrait"
+    },
+    {
+        "author": "Rembrandt",
+        "name": "Valthasar's Feast",
+        "year": "1635",
+        "imageNum": "171",
+        "category": "portrait"
+    },
+    {
+        "author": "David Allan",
+        "name": "Charles Watson, Esq., and His Wife, Lady Mary, with Their Two Children, James and Anne in a Landscape",
+        "year": "1782",
+        "imageNum": "172",
+        "category": "romanticism"
+    },
+    {
+        "author": "Isaac Levitan",
+        "name": "Golden Autumn",
+        "year": "1895",
+        "imageNum": "173",
+        "category": "landscape"
+    },
+    {
+        "author": "Arkhip Kuindzhi",
+        "name": "On the island of Valaam",
+        "year": "1873",
+        "imageNum": "174",
+        "category": "landscape"
+    },
+    {
+        "author": "Velasquez",
+        "name": "Delivering Delirium",
+        "year": "1635",
+        "imageNum": "175",
+        "category": "realism"
+    },
+    {
+        "author": "Ilya Repin",
+        "name": "Didn't expect",
+        "year": "1888",
+        "imageNum": "176",
+        "category": "realism"
+    },
+    {
+        "author": "Francois Boucher",
+        "name": "Bathing Diana",
+        "year": "1742",
+        "imageNum": "177",
+        "category": "renaissance"
+    },
+    {
+        "author": "Albrecht Durer",
+        "name": "Rosary Festival",
+        "year": "1506",
+        "imageNum": "178",
+        "category": "religion"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Portrait of Jeanne Samary",
+        "year": "1877",
+        "imageNum": "179",
+        "category": "portrait"
+    },
+    {
+        "author": "Ilya Repin",
+        "name": "Sadko",
+        "year": "1876",
+        "imageNum": "180",
+        "category": "surrealism"
+    },
+    {
+        "author": "Arkhip Kuindzhi",
+        "name": "Moonlit night on the Dnieper",
+        "year": "1880",
+        "imageNum": "181",
+        "category": "marine"
+    },
+    {
+        "author": "Velasquez",
+        "name": "Adoration of the Magi",
+        "year": "1619",
+        "imageNum": "182",
+        "category": "renaissance"
+    },
+    {
+        "author": "Joseph Wright",
+        "name": "View in Matlock Dale, Looking Towards Black Rock Escarpment",
+        "year": "1780",
+        "imageNum": "183",
+        "category": "romanticism"
+    },
+    {
+        "author": "Hieronymus Bosch",
+        "name": "Garden of earthly delights",
+        "year": "1510",
+        "imageNum": "184",
+        "category": "surrealism"
+    },
+    {
+        "author": "Correggio",
+        "name": "Danae",
+        "year": "1530",
+        "imageNum": "185",
+        "category": "renaissance"
+    },
+    {
+        "author": "Peter Paul Rubens",
+        "name": "Abduction of the daughters of Leucippus",
+        "year": "1618",
+        "imageNum": "186",
+        "category": "renaissance"
+    },
+    {
+        "author": "Jean Ingres",
+        "name": "Big odalisque",
+        "year": "1814",
+        "imageNum": "187",
+        "category": "portrait"
+    },
+    {
+        "author": "Raphael",
+        "name": "Sistine Madonna",
+        "year": "1520",
+        "imageNum": "188",
+        "category": "religion"
+    },
+    {
+        "author": "Rembrandt",
+        "name": "Abduction of Europa",
+        "year": "1632",
+        "imageNum": "189",
+        "category": "renaissance"
+    },
+    {
+        "author": "Peter Paul Rubens",
+        "name": "Abduction of Orphia by Boreas",
+        "year": "1615",
+        "imageNum": "190",
+        "category": "renaissance"
+    },
+    {
+        "author": "Arkhip Kuindzhi",
+        "name": "Ukrainian night",
+        "year": "1876",
+        "imageNum": "191",
+        "category": "landscape"
+    },
+    {
+        "author": "Edgar Degas",
+        "name": "Dancers at the barre",
+        "year": "1877",
+        "imageNum": "192",
+        "category": "impressionism"
+    },
+    {
+        "author": "Eugene Delacroix",
+        "name": "Christopher Columbus and His Son at La Rábida",
+        "year": "1780",
+        "imageNum": "193",
+        "category": "romanticism"
+    },
+    {
+        "author": "Pierre Auguste Renoir",
+        "name": "Two sisters",
+        "year": "1881",
+        "imageNum": "194",
+        "category": "impressionism"
+    },
+    {
+        "author": "Rembrandt",
+        "name": "Night Watch",
+        "year": "1642",
+        "imageNum": "195",
+        "category": "realism"
+    },
+    {
+        "author": "Edouard Manet",
+        "name": "Bar at the Folies Bergère",
+        "year": "1882",
+        "imageNum": "196",
+        "category": "expressionism"
+    },
+    {
+        "author": "Nicolas Poussin",
+        "name": "Landscape with Polyphemus",
+        "year": "1649",
+        "imageNum": "197",
+        "category": "landscape"
+    },
+    {
+        "author": "Pieter Bruegel",
+        "name": "The parable of the blind",
+        "year": "1568",
+        "imageNum": "198",
+        "category": "renaissance"
+    },
+    {
+        "author": "Karl Lessing",
+        "name": "Knights Castle",
+        "year": "1828",
+        "imageNum": "199",
+        "category": "romanticism"
+    },
+    {
+        "author": "Sandro Botticelli",
+        "name": "The Birth of Venus",
+        "year": "1486",
+        "imageNum": "200",
+        "category": "renaissance"
+    },
+    {
+        "author": "Leonardo da Vinci",
+        "name": "Madonna of the Rocks",
+        "year": "1486",
+        "imageNum": "201",
+        "category": "religion"
+    },
+    {
+        "author": "Axeli Gallen-Kallela",
+        "name": "Lovers",
+        "year": "1916",
+        "imageNum": "202",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Vincent Van Gogh",
+        "name": "Self-portrait with bandaged ear",
+        "year": "1889",
+        "imageNum": "203",
+        "category": "expressionism"
+    },
+    {
+        "author": "Claude Monet",
+        "name": "Impression. Rising sun",
+        "year": "1882",
+        "imageNum": "204",
+        "category": "marine"
+    },
+    {
+        "author": "Rembrandt",
+        "name": "Return of the prodigal son",
+        "year": "1662",
+        "imageNum": "205",
+        "category": "painting"
+    },
+    {
+        "author": "Caravaggio",
+        "name": "Sick Bacchus",
+        "year": "1593",
+        "imageNum": "206",
+        "category": "portrait"
+    },
+    {
+        "author": "Ivan Aivazovsky",
+        "name": "Moon path",
+        "year": "1886",
+        "imageNum": "207",
+        "category": "marine"
+    },
+    {
+        "author": "Vincent Van Gogh",
+        "name": "Wheat field with cypresses",
+        "year": "1889",
+        "imageNum": "208",
+        "category": "expressionism"
+    },
+    {
+        "author": "Axeli Gallen-Kallela",
+        "name": "Boy and Crow",
+        "year": "1884",
+        "imageNum": "209",
+        "category": "painting"
+    },
+    {
+        "author": "Jan Vermeer",
+        "name": "Astronomer",
+        "year": "1668",
+        "imageNum": "210",
+        "category": "renaissance"
+    },
+    {
+        "author": "Peter Paul Rubens",
+        "name": "Union of Earth and Water",
+        "year": "1618",
+        "imageNum": "211",
+        "category": "renaissance"
+    },
+    {
+        "author": "Claude Monet",
+        "name": "Haystack at Giverny",
+        "year": "1886",
+        "imageNum": "212",
+        "category": "landscape"
+    },
+    {
+        "author": "Jean Fragonard",
+        "name": "Gate",
+        "year": "1777",
+        "imageNum": "213",
+        "category": "renaissance"
+    },
+    {
+        "author": "Edouard Manet",
+        "name": "Bar at the Folies Bergères",
+        "year": "1882",
+        "imageNum": "214",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Vincent Van Gogh",
+        "name": "Night Cafe in Arles",
+        "year": "1888",
+        "imageNum": "215",
+        "category": "expressionism"
+    },
+    {
+        "author": "Claude Monet",
+        "name": "Water lily pond",
+        "year": "1899",
+        "imageNum": "216",
+        "category": "expressionism"
+    },
+    {
+        "author": "Ivan Aivazovsky",
+        "name": "Storm",
+        "year": "1868",
+        "imageNum": "217",
+        "category": "marine"
+    },
+    {
+        "author": "Jan Vermeer",
+        "name": "Lacemaker",
+        "year": "1671",
+        "imageNum": "218",
+        "category": "portrait"
+    },
+    {
+        "author": "Edward Hopper",
+        "name": "Nighthawkse",
+        "year": "1942",
+        "imageNum": "219",
+        "category": "realism"
+    },
+    {
+        "author": "Pieter Bruegel",
+        "name": "Tower of Babel",
+        "year": "1563",
+        "imageNum": "220",
+        "category": "surrealism"
+    },
+    {
+        "author": "Paul Gauguin",
+        "name": "Cafe in Arles",
+        "year": "1888",
+        "imageNum": "221",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Ivan Shishkin",
+        "name": "Pine Forest",
+        "year": "1895",
+        "imageNum": "222",
+        "category": "landscape"
+    },
+    {
+        "author": "Claude Monet",
+        "name": "Breakfast on the grass",
+        "year": "1865",
+        "imageNum": "223",
+        "category": "impressionism"
+    },
+    {
+        "author": "Raphael",
+        "name": "Saint George and the Dragon",
+        "year": "1506",
+        "imageNum": "224",
+        "category": "renaissance"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "Absinthe Drinker",
+        "year": "1901",
+        "imageNum": "225",
+        "category": "surrealism"
+    },
+    {
+        "author": "Edgar Degas",
+        "name": "Before rehearsal",
+        "year": "1880",
+        "imageNum": "226",
+        "category": "expressionism"
+    },
+    {
+        "author": "Nicholas Roerich",
+        "name": "Remember!",
+        "year": "1924",
+        "imageNum": "227",
+        "category": "surrealism"
+    },
+    {
+        "author": "Ilya Repin",
+        "name": "Dragonfly",
+        "year": "1884",
+        "imageNum": "228",
+        "category": "romanticism"
+    },
+    {
+        "author": "Claude Monet",
+        "name": "Waterloo Bridge, fog",
+        "year": "1903",
+        "imageNum": "229",
+        "category": "impressionism"
+    },
+    {
+        "author": "Isaac Levitan",
+        "name": "Spring is big water",
+        "year": "1897",
+        "imageNum": "230",
+        "category": "landscape"
+    },
+    {
+        "author": "Axeli Gallen-Kallela",
+        "name": "First lesson",
+        "year": "1889",
+        "imageNum": "231",
+        "category": "realism"
+    },
+    {
+        "author": "Ivan Aivazovsky",
+        "name": "Storm at sea",
+        "year": "1873",
+        "imageNum": "232",
+        "category": "marine"
+    },
+    {
+        "author": "Edgar Degas",
+        "name": "Ballet class",
+        "year": "1874",
+        "imageNum": "233",
+        "category": "expressionism"
+    },
+    {
+        "author": "Nicholas Roerich",
+        "name": "Mountain abode",
+        "year": "1933",
+        "imageNum": "234",
+        "category": "impressionism"
+    },
+    {
+        "author": "Leonardo da Vinci",
+        "name": "Saint Anne with Madonna",
+        "year": "1510",
+        "imageNum": "235",
+        "category": "religion"
+    },
+    {
+        "author": "El Greco",
+        "name": "Boy lighting a candle",
+        "year": "1572",
+        "imageNum": "236",
+        "category": "painting"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "Friendship",
+        "year": "1908",
+        "imageNum": "237",
+        "category": "avant-garde"
+    },
+    {
+        "author": "Axeli Gallen-Kallela",
+        "name": "Girl in the Wind",
+        "year": "1893",
+        "imageNum": "238",
+        "category": "romanticism"
+    },
+    {
+        "author": "Ivan Aivazovsky",
+        "name": "Wave",
+        "year": "1889",
+        "imageNum": "239",
+        "category": "marine"
+    },
+    {
+        "author": "Eugene Delacroix",
+        "name": "Self Portrait",
+        "year": "1837",
+        "imageNum": "240",
+        "category": "portrait"
+    },
+    {
+        "author": "Claude Lorrain",
+        "name": "The Embarkation of the Queen of Sheba",
+        "year": "1648",
+        "imageNum": "241",
+        "category": "marine"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "Guitar, Glass and Fruit Dish with Fruit",
+        "year": "1924",
+        "imageNum": "242",
+        "category": "surrealism"
+    },
+    {
+        "author": "Pablo Picasso",
+        "name": "Portrait of young girl",
+        "year": "1936",
+        "imageNum": "243",
+        "category": "surrealism"
+    },
+    {
+        "author": "Rene Magritte",
+        "name": "The blank page",
+        "year": "1967",
+        "imageNum": "244",
+        "category": "surrealism"
+    },
+    {
+        "author": "Rene Magritte",
+        "name": "The treachery of images (This is not a pipe)",
+        "year": "1928",
+        "imageNum": "245",
+        "category": "surrealism"
+    },
+    {
+        "author": "Rene Magritte",
+        "name": "Golconda",
+        "year": "1953",
+        "imageNum": "246",
+        "category": "surrealism"
+    },
+    {
+        "author": "Joan Miro",
+        "name": "The Hunter",
+        "year": "1923",
+        "imageNum": "247",
+        "category": "surrealism"
+    },
+    {
+        "author": "Joan Miro",
+        "name": "Dog Barking-at the Moon",
+        "year": "1926",
+        "imageNum": "248",
+        "category": "surrealism"
+    },
+    {
+        "author": "Max Ernst",
+        "name": "Vox Angelica",
+        "year": "1945",
+        "imageNum": "249",
+        "category": "surrealism"
+    },
+    {
+        "author": "Max Ernst",
+        "name": "A Friends' Reunion",
+        "year": "1922",
+        "imageNum": "250",
+        "category": "surrealism"
+    }
+]
