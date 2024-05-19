@@ -21,7 +21,6 @@ body {
   font-size: var(--big-font-size);
   line-height: var(--big-font-size);
   background: var(--background);
-
 }
 
 .hidden {
@@ -73,6 +72,9 @@ ul {
 }
 
 button {
+  font-family: var(--main-font-family);
+  font-size: var(--big-font-size);
+  border: none;
   transition: 0.5s;
   cursor: pointer;
 }
