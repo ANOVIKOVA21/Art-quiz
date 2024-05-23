@@ -13,6 +13,8 @@
   --settings-input-secondary-color: #ccc;
   --footer-text-color: #68625f;
   --footer-font-size: 30px;
+  --game-buttons-color: #FFBCA2;
+  --game-buttons-hover-color: #fd8a5c;
 }
 
 body {
@@ -21,6 +23,10 @@ body {
   font-size: var(--big-font-size);
   line-height: var(--big-font-size);
   background: var(--background);
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
 }
 
 .hidden {
@@ -50,6 +56,7 @@ section {
   line-height: 34px;
   align-self: center;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 img {
