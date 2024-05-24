@@ -3,13 +3,19 @@ import {
   getArrOfRandomUniqueNumbers,
   shuffle,
 } from './general.js';
-class Game {
+export class Game {
   constructor() {
     this.timer = 'off';
     this.categoryNum = null;
+    this.amountOfCategories = 12;
     this.amountOfQuestions = 10;
     this.questionNum = 0;
     this.questionEl = document.querySelector('.game-page__question');
+    this.categoryScore = 0;
+    this.score = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+    this.resultModal = document.querySelector('.result-page');
+    this.rightAnswersEl = this.resultModal.querySelector('.result-page__true-answers');
+    this.nextQuizBtn = this.resultModal.querySelector('.result-page__quiz-btn');
   }
   async getData() {
     const jsonData = await fetch('../data.json');
@@ -31,12 +37,11 @@ class Game {
     Object.keys(categories).forEach((category) => {
       categories[category] = data.filter((item) => item.category === category);
     });
-    return categories;
+    this.categories = categories;
   }
   async setCategoryData() {
-    const data = await this.getData();
-    const categoryData = Object.values(data)[this.categoryNum];
-    this.categoryData = categoryData;
+    if (!this.categories) await this.getData();
+    this.categoryData = Object.values(this.categories)[this.categoryNum];
   }
 
   setBgCategory(containersOfCategoryImgs) {
@@ -46,13 +51,10 @@ class Game {
       containersOfCategoryImgs[index].style.backgroundImage = `url('${img.src}')`;
     });
   }
-  async setCategoryItems(dataKey) {
-    if (!this.categoryItems) {
-      const uniqueItems = new Set(this.categoryData.map((obj) => obj[dataKey]));
-      this.categoryItems = Array.from(uniqueItems);
-    }
-  }
   async getAnswerOptions(dataKey) {
+    if (dataKey === 'imageNum') await this.setCategoryItems(dataKey);
+    // for picture game function setCategoryItems is called every time to have single right answer
+    // because there can be 2 pictures with the same author
     const rightAnswer = this.currentGameData[this.questionNum][dataKey];
     const numberOfAnswerOptions = 4;
     const options = [rightAnswer];
@@ -71,11 +73,59 @@ class Game {
     const currentGameData = rightAnswersPicNums.map((num) => categoryData[num]);
     this.currentGameData = currentGameData;
   }
-
-  getUserAnswer(targetElem) {
-    const targetImg = targetElem.style.backgroundImage;
-    const beginIndex = targetImg.lastIndexOf('/') + 1;
-    const endIndex = targetImg.indexOf('.jpg');
-    return targetImg.slice(beginIndex, endIndex);
+  updateScore() {
+    if (this.questionNum === this.amountOfQuestions) {
+      this.score[this.categoryNum] = this.categoryScore;
+      this.categoryScore = 0;
+      this.questionNum = 0;
+    } else this.categoryScore++;
+  }
+  showResultModal() {
+    this.rightAnswersEl.textContent = this.score[this.categoryNum];
+    if (this.categoryNum === this.amountOfCategories - 1) {
+      this.nextQuizBtn.style.display = 'none';
+    } else this.nextQuizBtn.style.display = '';
+    this.resultModal.showModal();
+  }
+  async showNextQuestion() {
+    this.questionNum++;
+    console.log('questionNum', this.questionNum);
+    if (this.questionNum === this.amountOfQuestions) {
+      this.updateScore();
+      this.showResultModal();
+    } else {
+      const answerOptions = await this.getAnswerOptions(this.dataKey);
+      this.setGameContent(answerOptions);
+    }
+  }
+  setListenerForRespModal(modal) {
+    const modalBtn = modal.querySelector('.response-page__button-next');
+    modalBtn.addEventListener(
+      'click',
+      () => {
+        this.showNextQuestion();
+        modal.close();
+        modal.className = `${modal.classList[0]}`;
+      },
+      { once: true }
+    );
+  }
+  showRespModal(modal, imgInfo) {
+    const responseTemplate = document.getElementById('response-page-template').innerHTML;
+    const template = Handlebars.compile(responseTemplate);
+    const markup = template(imgInfo);
+    modal.innerHTML = markup;
+    this.setListenerForRespModal(modal);
+    modal.showModal();
+  }
+  async handleUserAnswer(targetElem, modal) {
+    const imgInfo = this.currentGameData[this.questionNum];
+    const userAnswer = this.getUserAnswer(targetElem);
+    const rightAnswer = imgInfo[this.dataKey];
+    if (userAnswer === rightAnswer) {
+      modal.classList.add('correct');
+      this.updateScore();
+    } else modal.classList.add('incorrect');
+    this.showRespModal(modal, imgInfo);
   }
 }
