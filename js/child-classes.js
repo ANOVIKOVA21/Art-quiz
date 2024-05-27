@@ -1,8 +1,8 @@
 import { Game } from './Game-class.js';
 
 export class AuthorQuiz extends Game {
-  constructor() {
-    super();
+  constructor(timer) {
+    super(timer);
     this.gameType = 'author';
     this.categoryImagesNums = [202, 117, 1, 197, 217, 57, 102, 0, 68, 20, 47, 110];
     this.currentGameData = [];
@@ -27,15 +27,17 @@ export class AuthorQuiz extends Game {
     const answerOptions = await this.getAnswerOptions(this.dataKey);
     this.setGameContent(answerOptions);
     this.questionEl.textContent = this.questionText;
+    if (this.timer.timer) this.timer.setTimer();
   }
   getUserAnswer(el) {
-    return el.textContent;
+    if (el) return el.textContent;
+    else return null;
   }
 }
 
 export class PictureQuiz extends Game {
-  constructor(data) {
-    super(data);
+  constructor(timer) {
+    super(timer);
     this.gameType = 'picture';
     this.categoryImagesNums = [237, 97, 114, 173, 14, 236, 154, 143, 158, 6, 60, 31];
     this.currentGameData = [];
@@ -62,8 +64,10 @@ export class PictureQuiz extends Game {
     await super.startGame();
     const answerOptions = await this.getAnswerOptions(this.dataKey);
     this.setGameContent(answerOptions);
+    if (this.timer.timer) this.timer.setTimer();
   }
   getUserAnswer(el) {
-    return el.dataset.imageNum;
+    if (el) return el.dataset.imageNum;
+    else return null;
   }
 }

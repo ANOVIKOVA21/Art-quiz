@@ -1,6 +1,7 @@
 import { goToAnotherPage } from './navigation.js';
 import { AuthorQuiz, PictureQuiz } from './child-classes.js';
-
+import { addSettingsListeners } from './settings.js';
+import { Timer } from './timer-class.js';
 function addNavigationListeners() {
   const home = document.querySelector('.home-page');
   const settingsPage = document.querySelector('.settings-page');
@@ -28,6 +29,7 @@ function addNavigationListeners() {
   const resultHomeBtn = resultPage.querySelector('.result-page__home-btn');
   const nextQuizBtn = resultPage.querySelector('.result-page__quiz-btn');
   let game = null;
+  const timer = new Timer();
   let prevPage = null;
 
   function quizHandler(game) {
@@ -35,12 +37,11 @@ function addNavigationListeners() {
     game.setBgCategory(containersOfCategoryImgs);
   }
   quizAuthor.addEventListener('click', () => {
-    game = new AuthorQuiz();
+    if (!game) game = new AuthorQuiz(timer);
     quizHandler(game);
-    console.log(game);
   });
   quizPicture.addEventListener('click', () => {
-    game = new PictureQuiz();
+    if (!game) game = new PictureQuiz(timer);
     quizHandler(game);
   });
   homeSettingsImg.addEventListener('click', () => {
@@ -63,16 +64,12 @@ function addNavigationListeners() {
     const targetCategory = ev.target.closest('.categories-page__category');
     if (!targetCategory) return;
     goToAnotherPage(categoriesPage, gamePage);
-    if (game.timer === 'On') {
-      timerEl.style.visibility = 'visible';
-      updateTime();
-      interval = setInterval(decreaseTime, 1000);
-    }
     game.categoryNum = +targetCategory.dataset.categoryNum;
     if (game.gameType === 'author') quizAuthorContent.classList.remove('hidden');
     else quizPictureContent.classList.remove('hidden');
     game.startGame();
   });
+  document.addEventListener('timeisup', () => game.handleUserAnswer(null, responsePage));
   answersButtons.forEach((btn) =>
     btn.addEventListener('click', (ev) => game.handleUserAnswer(ev.target, responsePage))
   );
@@ -89,5 +86,6 @@ function addNavigationListeners() {
     game.categoryNum++;
     game.startGame();
   });
+  addSettingsListeners(timer);
 }
 addNavigationListeners();

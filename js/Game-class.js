@@ -4,8 +4,8 @@ import {
   shuffle,
 } from './general.js';
 export class Game {
-  constructor() {
-    this.timer = 'off';
+  constructor(timer) {
+    this.timer = timer;
     this.categoryNum = null;
     this.amountOfCategories = 12;
     this.amountOfQuestions = 10;
@@ -16,6 +16,9 @@ export class Game {
     this.resultModal = document.querySelector('.result-page');
     this.rightAnswersEl = this.resultModal.querySelector('.result-page__true-answers');
     this.nextQuizBtn = this.resultModal.querySelector('.result-page__quiz-btn');
+    this.rightSound = document.getElementById('rightSound');
+    this.wrongSound = document.getElementById('wrongSound');
+    this.completedSound = document.getElementById('completedSound');
   }
   async getData() {
     const jsonData = await fetch('../data.json');
@@ -86,16 +89,17 @@ export class Game {
       this.nextQuizBtn.style.display = 'none';
     } else this.nextQuizBtn.style.display = '';
     this.resultModal.showModal();
+    this.completedSound.play();
   }
   async showNextQuestion() {
     this.questionNum++;
-    console.log('questionNum', this.questionNum);
     if (this.questionNum === this.amountOfQuestions) {
       this.updateScore();
       this.showResultModal();
     } else {
       const answerOptions = await this.getAnswerOptions(this.dataKey);
       this.setGameContent(answerOptions);
+      if (this.timer.timer) this.timer.setTimer();
     }
   }
   setListenerForRespModal(modal) {
@@ -124,8 +128,13 @@ export class Game {
     const rightAnswer = imgInfo[this.dataKey];
     if (userAnswer === rightAnswer) {
       modal.classList.add('correct');
+      this.rightSound.play();
       this.updateScore();
-    } else modal.classList.add('incorrect');
+    } else {
+      modal.classList.add('incorrect');
+      this.wrongSound.play();
+    }
+    if (this.timer.timer) clearInterval(this.timer.interval);
     this.showRespModal(modal, imgInfo);
   }
 }
