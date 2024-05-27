@@ -150,7 +150,3 @@ input:checked+.settings-page__switcher-slider:before {
 .settings-page__time::-webkit-inner-spin-button {
   appearance: none;
 }
-
-.settings-page__timer {
-  display: none;
-}
