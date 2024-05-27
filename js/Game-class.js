@@ -46,7 +46,6 @@ export class Game {
     if (!this.categories) await this.getData();
     this.categoryData = Object.values(this.categories)[this.categoryNum];
   }
-
   setBgCategory(containersOfCategoryImgs) {
     this.categoryImagesNums.forEach((num, index) => {
       const img = new Image();
@@ -81,6 +80,7 @@ export class Game {
       this.score[this.categoryNum] = this.categoryScore;
       this.categoryScore = 0;
       this.questionNum = 0;
+      this.saveScore();
     } else this.categoryScore++;
   }
   showResultModal() {

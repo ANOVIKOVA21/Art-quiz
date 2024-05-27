@@ -33,6 +33,15 @@ export class AuthorQuiz extends Game {
     if (el) return el.textContent;
     else return null;
   }
+  saveScore() {
+    let newScore = this.score;
+    if (localStorage.authorQuizScore) {
+      const savedScore = JSON.parse(localStorage.getItem('authorQuizScore'));
+      savedScore[this.categoryNum] = this.score[this.categoryNum];
+      newScore = savedScore;
+    }
+    localStorage.setItem('authorQuizScore', JSON.stringify(newScore));
+  }
 }
 
 export class PictureQuiz extends Game {
@@ -69,5 +78,14 @@ export class PictureQuiz extends Game {
   getUserAnswer(el) {
     if (el) return el.dataset.imageNum;
     else return null;
+  }
+  saveScore() {
+    let newScore = this.score;
+    if (localStorage.pictureQuizScore) {
+      const savedScore = JSON.parse(localStorage.getItem('pictureQuizScore'));
+      savedScore[this.categoryNum] = this.score[this.categoryNum];
+      newScore = savedScore;
+    }
+    localStorage.setItem('pictureQuizScore', JSON.stringify(newScore));
   }
 }
