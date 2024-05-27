@@ -184,7 +184,7 @@
       <section class="game-page hidden retracted">
         <header class="game-page__header">
           <p class="game-page__question"></p>
-          <span class="game-page__timer">0:20</span>
+          <span class="game-page__timer" id="timer">0:20</span>
         </header>
         <div class="game-page__content">
           <div class="quiz-author hidden">
@@ -226,7 +226,6 @@
           </div>
         </div>
       </dialog>
-      <section class="score-page hidden retracted"></section>
     </main>
     <footer>
       <div class="container">
@@ -236,6 +235,9 @@
         </ul>
       </div>
     </footer>
+    <audio src="assets/sounds/right.mp3" class="sound" id="rightSound"></audio>
+    <audio src="assets/sounds/wrong.mp3" class="sound" id="wrongSound"></audio>
+    <audio src="assets/sounds/completed.mp3" class="sound" id="completedSound"></audio>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
     <script type="module" src="js/main.js"></script>
   </body>
