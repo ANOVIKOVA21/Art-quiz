@@ -2,6 +2,7 @@ import { goToAnotherPage } from './navigation.js';
 import { AuthorQuiz, PictureQuiz } from './child-classes.js';
 import { addSettingsListeners } from './settings.js';
 import { Timer } from './timer-class.js';
+import { showScore } from './score.js';
 function addNavigationListeners() {
   const home = document.querySelector('.home-page');
   const settingsPage = document.querySelector('.settings-page');
@@ -35,13 +36,14 @@ function addNavigationListeners() {
   function quizHandler(game) {
     goToAnotherPage(home, categoriesPage);
     game.setBgCategory(containersOfCategoryImgs);
+    showScore(game);
   }
   quizAuthor.addEventListener('click', () => {
-    if (!game) game = new AuthorQuiz(timer);
+    game = new AuthorQuiz(timer);
     quizHandler(game);
   });
   quizPicture.addEventListener('click', () => {
-    if (!game) game = new PictureQuiz(timer);
+    game = new PictureQuiz(timer);
     quizHandler(game);
   });
   homeSettingsImg.addEventListener('click', () => {
@@ -78,8 +80,11 @@ function addNavigationListeners() {
   );
   resultHomeBtn.addEventListener('click', () => {
     goToAnotherPage(gamePage, home);
-    prevPage = gamePage;
     resultPage.close();
+    setTimeout(() => {
+      quizAuthorContent.classList.add('hidden');
+      quizPictureContent.classList.add('hidden');
+    }, 1000);
   });
   nextQuizBtn.addEventListener('click', () => {
     resultPage.close();
