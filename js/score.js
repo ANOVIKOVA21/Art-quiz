@@ -5,7 +5,6 @@ export function showScore(game) {
     '.categories-page__category-img'
   );
   let score = null;
-  debugger;
   if (game.gameType === 'author') {
     score = JSON.parse(localStorage.getItem('authorQuizScore')) || game.score;
   } else {
