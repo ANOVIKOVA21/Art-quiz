@@ -17,7 +17,7 @@ export class AuthorQuiz extends Game {
   }
   setGameContent(answerOptions) {
     const { pictureEl, currentGameData, questionNum, answerButtons } = this;
-    pictureEl.style.backgroundImage = `url(~/assets/pictures/${currentGameData[questionNum].imageNum}.jpg)`;
+    pictureEl.style.backgroundImage = `url(../assets/pictures/${currentGameData[questionNum].imageNum}.jpg)`;
     answerButtons.forEach((btn, index) => (btn.textContent = answerOptions[index]));
   }
 
@@ -65,7 +65,7 @@ export class PictureQuiz extends Game {
     const { questionEl, currentGameData, questionNum, answerPictures } = this;
     questionEl.textContent = `Which is ${currentGameData[questionNum].author}'s picture?`;
     answerPictures.forEach((img, index) => {
-      img.style.backgroundImage = `url(~/assets/pictures/${answerOptions[index]}.jpg)`;
+      img.style.backgroundImage = `url(../assets/pictures/${answerOptions[index]}.jpg)`;
       img.setAttribute('data-image-num', `${answerOptions[index]}`);
     });
   }
