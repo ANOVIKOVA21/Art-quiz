@@ -21,7 +21,7 @@ export class Game {
     this.completedSound = document.getElementById('completedSound');
   }
   async getData() {
-    const jsonData = await fetch('~/data.json');
+    const jsonData = await fetch('data.json');
     const data = await jsonData.json();
     const categories = {
       'avant-garde': [],
