@@ -48,9 +48,9 @@ export class Game {
   }
   setBgCategory(containersOfCategoryImgs) {
     this.categoryImagesNums.forEach((num, index) => {
-      const img = new Image();
-      img.src = `~/assets/pictures/${num}.jpg`;
-      containersOfCategoryImgs[index].style.backgroundImage = `url('${img.src}')`;
+      containersOfCategoryImgs[
+        index
+      ].style.backgroundImage = `url(/assets/pictures/${num}.jpg)`;
     });
   }
   async getAnswerOptions(dataKey) {
