@@ -21,7 +21,7 @@ export class Game {
     this.completedSound = document.getElementById('completedSound');
   }
   async getData() {
-    const jsonData = await fetch('./data.json');
+    const jsonData = await fetch('~/data.json');
     const data = await jsonData.json();
     const categories = {
       'avant-garde': [],
@@ -49,7 +49,7 @@ export class Game {
   setBgCategory(containersOfCategoryImgs) {
     this.categoryImagesNums.forEach((num, index) => {
       const img = new Image();
-      img.src = `assets/pictures/${num}.jpg`;
+      img.src = `~/assets/pictures/${num}.jpg`;
       containersOfCategoryImgs[index].style.backgroundImage = `url('${img.src}')`;
     });
   }
