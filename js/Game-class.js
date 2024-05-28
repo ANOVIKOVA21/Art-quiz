@@ -50,7 +50,7 @@ export class Game {
     this.categoryImagesNums.forEach((num, index) => {
       containersOfCategoryImgs[
         index
-      ].style.backgroundImage = `url('/assets/pictures/${num}.jpg')`;
+      ].style.backgroundImage = `url('assets/pictures/${num}.jpg')`;
     });
   }
   async getAnswerOptions(dataKey) {
