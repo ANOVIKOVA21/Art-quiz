@@ -10,7 +10,6 @@
 .home-page__choice,
 .footer__info {
   display: flex;
-  flex-wrap: wrap;
   column-gap: 20px;
   justify-content: space-between;
   margin: 0 auto 30px;
@@ -49,4 +48,43 @@
   padding: 0 10px;
   border-radius: 30px 0;
   background: linear-gradient(90deg, rgba(238, 220, 220, 0.9) 55%, rgba(32, 32, 32, 0.6));
+}
+
+@media (max-height:1000px) {
+  .home-page__header-logo {
+    width: 250px;
+  }
+
+  .home-page__game-type {
+    min-height: 350px;
+    max-width: 450px;
+  }
+}
+
+@media (max-width:750px) {
+  .home-page__header-logo {
+    width: 200px;
+  }
+
+  .home-page__game-type {
+    min-height: 300px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width:640px) {
+  .home-page__header-logo {
+    width: 150px;
+  }
+
+  .home-page__game-type {
+    max-width: 90%;
+  }
+
+  .home-page__choice {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto 30px;
+  }
 }

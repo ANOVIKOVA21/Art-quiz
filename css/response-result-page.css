@@ -1,9 +1,9 @@
 dialog {
-  margin: auto auto;
+  margin: auto;
   border-radius: 25px;
-  overflow: hidden;
-  max-width: 522px;
+  max-width: 450px;
   width: 100%;
+  max-height: none;
 }
 
 dialog::backdrop {
@@ -36,12 +36,20 @@ dialog[open] {
 
 .response-page__result,
 .result-page__window {
-  padding: 30px;
+  padding: 10px;
+}
+
+.response-page__result {
+  max-height: 85vh;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #bbb transparent;
+
 }
 
 .response-page__result-picture {
   width: 100%;
-  height: 40vh;
+  height: 50vh;
   border-radius: 20px;
   margin-bottom: 10px;
   background-position: center;
@@ -50,31 +58,33 @@ dialog[open] {
 
 .response-page__result-mark {
   position: relative;
-  width: 60px;
-  height: 60px;
-  top: 20px;
+  width: 30px;
+  height: 30px;
+  top: 10px;
   left: 10px;
+  background-size: cover;
 }
 
-.response-page__picture-name,
-.response-page__info-picture {
+.response-page__picture-name {
   text-align: center;
+  font-size: 40px;
+  line-height: 30px;
 }
 
 .response-page__info-picture {
   font-style: italic;
-  font-size: 42px;
-  line-height: 35px;
-  margin-bottom: 26px;
+  font-size: 32px;
+  line-height: 25px;
+  text-align: center;
 }
 
 .response-page__button-next,
 .result-page__home-btn,
 .result-page__quiz-btn {
-  font-size: 42px;
-  line-height: 25px;
+  font-size: 30px;
+  line-height: 20px;
   background: var(--game-buttons-color);
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   border-radius: 50px;
 }

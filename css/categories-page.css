@@ -64,15 +64,22 @@
 }
 
 .categories-page__category-title {
-  padding: 10px 10px 0 10px;
+  padding: 0 10px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   column-gap: 10px;
 }
 
 .categories-page__category-num {
-  font-size: 82px;
+  font-size: clamp(50px, 9vw, 82px);
   color: #f19b7a;
+}
+
+@media screen and (max-width:700px) {
+  .categories-page__category-num {
+    font-size: clamp(50px, 11vw, 82px);
+  }
 }
 
 .categories-page__category-img {

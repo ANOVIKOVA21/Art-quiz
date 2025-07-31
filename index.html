@@ -38,25 +38,35 @@
         </div>
       </section>
       <section class="settings-page hidden retracted">
-        <div class="container flex-column">
+        <div class="container">
           <button class="settings-page__back-btn">Back</button>
           <h2 class="title">Settings</h2>
-          <p>Volume</p>
-          <input type="range" value="40" min="0" max="100" class="settings-page__volume" id="volume">
-          <p>Time game</p>
-          <div class="settings-page__switcher">
-            <span class="settings-page__switcher-text">Off</span>
-            <label class="settings-page__switcher-container">
-              <input type="checkbox">
-              <span class="settings-page__switcher-slider"></span>
-            </label>
-          </div>
-          <p>Time to answer</p>
-          <div class="settings-page__time-buttons">
-            <button type="button" class="settings-page__btn less-btn">–</button>
-            <input type="number" min="5" max="30" value="20" step="5" class="settings-page__time" readonly>
-            <button type="button" class="settings-page__btn more-btn">+</button>
-          </div>
+          <ul class="settings-page__settings-list flex-column">
+            <li>
+              <label for="volume">Volume <input type="range" value="40" min="0" max="100" class="settings-page__volume"
+                  id="volume">
+              </label>
+            </li>
+            <li>
+              <p>Time game</p>
+              <div class="settings-page__switcher">
+                <span class="settings-page__switcher-text">Off</span>
+                <label class="settings-page__switcher-container">
+                  <input type="checkbox" name="switcher">
+                  <span class="settings-page__switcher-slider"></span>
+                </label>
+              </div>
+            </li>
+            <li>
+              <p>Time to answer</p>
+              <div class="settings-page__time-buttons">
+                <button type="button" class="settings-page__btn less-btn">–</button>
+                <input type="number" name="time" min="5" max="30" value="20" step="5" class="settings-page__time"
+                  readonly>
+                <button type="button" class="settings-page__btn more-btn">+</button>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="categories-page hidden retracted">
@@ -231,7 +241,7 @@
       <div class="container">
         <ul class="footer__info">
           <li><a href="https://github.com/ANOVIKOVA21">ANNA NOVIKOVA</a></li>
-          <li>2024</li>
+          <li>2025</li>
         </ul>
       </div>
     </footer>

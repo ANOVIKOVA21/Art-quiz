@@ -8,11 +8,11 @@
 :root {
   --background: linear-gradient(rgba(135, 60, 255, 0.4), rgba(135, 60, 255, 0.0) 80%), linear-gradient(-45deg, rgba(120, 155, 255, 0.9) 25%, rgba(255, 160, 65, 0.9) 75%);
   --main-font-family: 'Dongle', 'Arial', sans-serif;
-  --big-font-size: 52px;
+  --big-font-size: clamp(32px, 6vw, 52px);
   --settings-input-primary-color: #FFBCA2;
   --settings-input-secondary-color: #ccc;
   --footer-text-color: #68625f;
-  --footer-font-size: 30px;
+  --footer-font-size: clamp(16px, 3vw, 30px);
   --game-buttons-color: #FFBCA2;
   --game-buttons-hover-color: #fd8a5c;
 }
@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   font-family: var(--main-font-family);
   font-size: var(--big-font-size);
-  line-height: var(--big-font-size);
+  line-height: 0.8;
   background: var(--background);
 }
 
@@ -32,6 +32,7 @@ body:has(dialog[open]) {
 .hidden {
   height: 0;
   overflow: hidden;
+  padding: 0;
 }
 
 section {
@@ -48,14 +49,14 @@ section {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  row-gap: 45px;
+  row-gap: clamp(20px, 5vw, 45px);
 }
 
 .title {
-  font-size: 72px;
-  line-height: 34px;
+  font-size: clamp(42px, 8vw, 72px);
+  line-height: 0.8;
   align-self: center;
-  margin-bottom: 70px;
+  margin-bottom: clamp(30px, 6vw, 70px);
   text-align: center;
 }
 

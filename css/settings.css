@@ -1,7 +1,7 @@
 .settings {
-  width: 50px;
-  height: 50px;
-  background: url(../assets/svg/settings.svg) center no-repeat;
+  width: clamp(40px, 6vw, 50px);
+  height: clamp(40px, 5vw, 50px);
+  background: url(../assets/svg/settings.svg) center/cover no-repeat;
   margin: 20px 20px 20px auto;
   cursor: pointer;
   transition: 0.8s;
@@ -48,12 +48,9 @@
 }
 
 .settings-page__back-btn {
-  font-family: var(--main-font-family);
-  font-size: var(--big-font-size);
   background: none;
   border: none;
-  padding: 10px;
-  margin-bottom: 60px;
+  padding-left: 10px;
 }
 
 .settings-page__back-btn::before {
@@ -66,17 +63,23 @@
   margin: 0 17px 0 -7px;
 }
 
+.settings-page__settings-list {
+  margin: 0 auto;
+  max-width: 60vw;
+}
+
 .settings-page__switcher {
   display: flex;
   column-gap: 20px;
   align-items: center;
+  margin-top: 10px;
 }
 
 .settings-page__switcher-container {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 33px;
+  width: clamp(30px, 6vw, 60px);
+  height: clamp(20px, 4vw, 33px);
 }
 
 .settings-page__switcher-container input {
@@ -98,10 +101,10 @@
 .settings-page__switcher-slider:before {
   position: absolute;
   content: "";
-  height: 20px;
-  width: 20px;
-  left: 6px;
-  bottom: 8px;
+  width: clamp(10px, 2.5vw, 20px);
+  height: clamp(10px, 2.5vw, 20px);
+  left: clamp(4px, 5px, 6px);
+  bottom: clamp(5px, 1vw, 8px);
   background-color: white;
   border-radius: 50%;
   transition: .4s;
@@ -116,7 +119,7 @@ input:focus+.settings-page__switcher-slider {
 }
 
 input:checked+.settings-page__switcher-slider:before {
-  transform: translateX(25px);
+  transform: translateX(clamp(10px, 2vw, 25px));
 }
 
 .settings-page__switcher-text {
@@ -128,9 +131,9 @@ input:checked+.settings-page__switcher-slider:before {
   border: none;
   border-radius: 50px;
   background: var(--settings-input-primary-color);
-  padding: 5px 13px;
+  padding: 6px 13px 3px;
   font-size: 32px;
-  line-height: 32px;
+  line-height: 26px;
 }
 
 .less-btn:hover,
@@ -142,11 +145,20 @@ input:checked+.settings-page__switcher-slider:before {
   border: none;
   background: none;
   font-family: var(--main-font-family);
-  font-size: 45px;
-  line-height: 45px;
+  font-size: clamp(30px, 5.5vw, 45px);
   text-align: center;
 }
 
 .settings-page__time::-webkit-inner-spin-button {
   appearance: none;
+}
+
+@media (max-width:640px) {
+  .settings {
+    margin: 0 20px 0 auto;
+  }
+
+  .settings-page__settings-list {
+    max-width: 70vw;
+  }
 }

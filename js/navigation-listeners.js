@@ -24,7 +24,6 @@ function addNavigationListeners() {
   const categoriesSettingsImg = categoriesPage.querySelector('.settings');
   const quizAuthorContent = gamePage.querySelector('.quiz-author');
   const quizPictureContent = gamePage.querySelector('.quiz-picture');
-  const timerEl = gamePage.querySelector('.game-page__timer');
   const answersButtons = gamePage.querySelectorAll('.quiz-author__answer-button');
   const answerPictures = gamePage.querySelectorAll('.quiz-picture__option-picture');
   const resultHomeBtn = resultPage.querySelector('.result-page__home-btn');
